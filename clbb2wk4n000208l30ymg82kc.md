@@ -4,7 +4,7 @@
 
 ## Explanation
 
-Philosophies over the architecture Resilient in the face of changes
+#### Philosophies over the architecture Resilient in the face of changes
 
 *   Maintainable with increasing complexity
     
@@ -34,7 +34,7 @@ Philosophies over the architecture Resilient in the face of changes
     
 *   So if we're in our insurance company example you can say that you'd have a use case like filing a claim. Or for our retailer example, you might have a use case like a customer places an order.
     
-*   Likewise in a social media setting, you might have user posts a tweet.  
+*   Likewise in a social media setting, you might have user posts a tweet.
     
 
 #### Adapters

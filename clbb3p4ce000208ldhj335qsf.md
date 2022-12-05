@@ -1,6 +1,6 @@
 # Creating your own blockchain network
 
-Starting with the most basic question "What is Block Chain ?"
+#### Starting with the most basic question "What is Block Chain ?"
 
 The blockchain is another revolutionary technology that can change the ways of the internet just like open-sourced software did. Just like them, blockchain will take up some time to cool off and get reasonably priced for everyone to use in modern developments.
 
@@ -13,11 +13,12 @@ The core idea behind blockchains is their decentralized nature. You will be fasc
 For more info, refer to this BlockChain Technology [Guide](https://101blockchains.com/ultimate-blockchain-technology-guide/)
 
 ![](https://101blockchains.com/wp-content/uploads/2018/07/How_Does_a_Blockchain_work-768x515.jpg.webp align="left")
+
 ![](https://101blockchains.com/wp-content/uploads/2020/01/How-to-Build-A-Blockchain-In-Python-768x768.png.webp align="left")
 
 Picture Taken from [101blockchains](https://101blockchains.com/blockchain-infographics/)
 
-Below I attach my code on How I created my blockchain network in flask (python) and [nodejs](https://nodejs.org/en/) (javascript)
+#### Below I attach my code on How I created my blockchain network in flask (python) and [nodejs](https://nodejs.org/en/) (javascript)
 
 ```py
 # blockchain.py

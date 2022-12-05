@@ -7,9 +7,8 @@
 3. Write/code whatever in that folder (repo you cloned)
 4. Push to remote repo
 
-### Details
+#### Step 1 (Basic Setup)
 
-##### Step 1 (Basic Setup)
 * Create a GitHub account
 * Create new repository
 * public/private (whatever you want)
@@ -17,6 +16,7 @@
 * Click on Create repository
 
 Now your repo is created
+
 
 #### Step 2 (Cloning)
 
@@ -26,14 +26,14 @@ Now your repo is created
 * right click --> open git bash
 * ```git clone "theLinkYouCopied"```
 
-###### Like for example--
-```git clone "https://www.github.com/username/repo"```
-###### (Link must be in quotes)
-###### Now cloned, and since you cloned from GitHub, git is already initialised in this repo.
+Like for example -- ```git clone "https://www.github.com/username/repo"``` (Link must be in quotes)
+Now cloned, and since you cloned from GitHub, git is already initialised in this repo.
+
 
 #### Step 3 (The Coding Part)
 
-###### (that you do yourself, the productivity part) The usual coding, problem-solving stuff
+(that you do yourself, the productivity part) The usual coding, problem-solving stuff
+
 
 #### Step 4 (Pushing to remote repository)
 
@@ -47,41 +47,22 @@ You can also configure this globally
 
 Then you add the changes by
 
-```git add fileThatChanged```
-######(file name with extension without quotes)
+```git add fileThatChanged``` (file name with extension without quotes)
+ 
+Example - if I have a file named test.cpp and I want to add this file, then I would write ```git add test.cpp```
+Or if you want to add all changed files, just write ```git add .``` (that (.) dot is important, meaning everything in this folder)
 
-###### Example - if I have a file named test.cpp and I want to add this file, then I would write
-```git add test.cpp```
-
-Or if you want to add all changed files, just write
-
-```git add .```
-###### (that (.) dot is important, meaning everything in this folder)
-
-Now you need to commit to the changes.
-###### (Commit is same as commitment as in English language) meaning to finalise the decision.
+Now you need to commit to the changes. (Commit is same as commitment as in English language) meaning to finalise the decision.
 
 ```git commit -m "commit message"```
+-m for message, and commit message in quotes, This message should be short, compact but convey the changes you did.  It is a general practice to write commit messages in present tense.
 
--m for message, and commit message in quotes,
-###### This message should be short, compact but convey the changes you did.
-###### It is a general practice to write commit messages in present tense.
+Ok, now the changes are finalised, you need to push this to your remote repo, Just write ```git push``` (In case of single branch repository)
 
-Ok, now the changes are finalised, you need to push this to your remote repo, Just write
+Else, you need to write  ```git push origin branchName``` (branchName specifies the branch you want to commit to)
 
-```git push```
-###### (In case of single branch repository)
+This will ask to confirm your identity, it will open your GitHub with an oAuth request, just give your GitHub credentials there. Once authenticated, changes will be pushed to your remote origin (GitHub)
 
-Else, you need to write 
-```git push origin branchName```
-###### (branchName specifies the branch you want to commit to)
-
-
-##### This will ask to confirm your identity, it will open your GitHub with an oAuth request, just give your GitHub credentials there.
-
-##### Once authenticated, changes will be pushed to your remote origin (GitHub)
-
----
 
 ##### List of some commonly used git commands
 | Command | Description |
